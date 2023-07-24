@@ -1,0 +1,66 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-size: 100%;
+}
+.x{
+    font-size: 50px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 6px;
+}
+.messi{
+    color: lightblue;
+}
+.neymar{
+    color: yellow;
+}
+.cmnt{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 100px black;
+    padding: 30px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.img-main{
+    border-radius: 50px;
+}
+@media screen and (max-width: 430px){
+    .head{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .img{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-main{
+        width: 350px;
+        height: 350px;
+    }
+    .last{
+        font-size: 50px;
+        font-family: sans-serif;
+        text-align: center;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 100px black;
+        padding: 30px;
+    }
+    
+}
